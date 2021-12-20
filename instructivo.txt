@@ -1,0 +1,50 @@
+
+¡Hola!,
+
+¡Para nosotros es genial que te postules para unirte a nuestro equipo de desarrollo!
+
+Para tener una idea de su trabajo, nos gustaría que completara la siguiente prueba. Ten en cuenta que no hay un tiempo mínimo para entregarlo, pero tienes un plazo máximo de 2h para finalizarlo.
+
+El tiempo empezará a contar en el momento de recibir la prueba, hasta el momento que envías los resultados con la información de entrega que encontraras al final de este documento. 
+
+Detalles
+El lenguaje de programación al momento de realizar la prueba es de libre elección, de preferencia Javascript/Php/Pyhon
+
+Elemento máximo con la suma mínima
+Dada una matriz de números enteros. Obtenga el elemento máximo en la matriz que produce la suma más pequeña al agregar todos los elementos que son diferentes de sí mismo.
+
+Ejemplo 1:
+
+Entrada:
+numbers = [1,2,3,3,3,3,4,5,6,6]
+
+Salida: 6
+
+Explicación:
+
+
+•	Para 1, la suma del resto de elementos distintos de sí mismo es 2 + 3 + 3 + 3 + 3 + 4 + 5 + 6 + 6 = 35
+•	Para 2, La suma es 34.
+•	Para 3, La suma es 24.
+•	Para 4, La suma es 32.
+•	Para 5, La suma es 31.
+•	Para 6, La suma es 24.
+
+Tanto 3 como 6 producen la suma más pequeña (24), pero 6 es mayor que 3. Por lo tanto, 6 es el elemento máximo que produce la suma más pequeña.
+Además, considere que los números pueden ser positivos o negativos.
+A continuación están las entradas con las que deberás probar tu algoritmo
+
+Entradas
+
+Inputs	Tu respuesta
+numbers
+[0,7,1,-10,2,-4,-1,3,-2,10,-2,-6,-9,9,1,10,3,-2,0,9,6,-5,10,-10,-2,-5,-5,7,-6,-10,2,2,-5,-3,8,0,3,4,-2,-9,-8,-1,-5,-9,-3,-10,7,-3,-9,4,0,1,0,-9,-8,6,-5,1,-6,-1,0,9,-10,-9,-4,5,5,5,-1,-9,1,-7,-5,-4,0,7,-7,0,6,7,8,-2,0,-6,-6,-2,2,5,0,-4,6,-6,10,-8,-5,-5,7,0,7,-9]	
+numbers
+[4,10,0,-2,10,-3,-9,0,6,10,6,10,-5,10,7,-10,-9,1,-2,-8,-10,9,-4,-9,5,1,-4,-10,2,-8,1,10,9,-1,0,4,9,7,9,7,-1,5,3,0,2,-7,4,0,7,0,-5,-6,-1,0,4,10,-2,-6,0,9,5,-5,-10,0,-7,-3,-6,5,7,-4,0,4,5,9,-4,4,1,10,1,-4,4,-4,9,-10,-10,-5,9,-3,4,0,3,-4,-1,2,-1,-5,10,7,-2,-4]	
+
+
+Entrega
+- Sube tu solución (código) a un repositorio de git
+- Agregue un README con las instrucciones para ejecutar sus soluciones, así como cualquier otra información que considere necesaria. 
+- Envía este documento con las respuestas a cada entrada y el enlace del repositorio
+- Enviar tu solución al correo electrónico desarrollo1@shf.com.co  con el asunto Prueba Lógica - {Nombre Apellido}
